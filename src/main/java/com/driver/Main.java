@@ -6,7 +6,9 @@ public class Main {
         RWOnly obj = new RWOnly();
         //name has private access in com.driver RwOnly
         //obj.name = "Phani"
-        obj.SetName("Veera Phani");
-        System.out.println(obj.getName());
+        obj.setName("Veera Phani");
+       // System.out.println(obj.getName());
+        obj.getName();
+
     }
 }
