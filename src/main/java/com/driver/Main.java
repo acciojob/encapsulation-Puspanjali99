@@ -4,8 +4,9 @@ public class Main {
 
     public static void main(String[] args){
         RWOnly obj = new RWOnly();
-        obj.SetName("veera Phani");
+        //name has private access in com.driver RwOnly
+        //obj.name = "Phani"
+        obj.SetName("Veera Phani");
         System.out.println(obj.getName());
     }
-  
 }
